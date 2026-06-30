@@ -29,6 +29,7 @@ This project is a **Machine Learning-based web application** that predicts multi
 ---
 
 ## 📂 Project Structure
+
 multiple-disease-prediction/
 │
 ├── models/
@@ -49,10 +50,12 @@ multiple-disease-prediction/
 ### 1. Clone the repository
 
 git clone https://github.com/your-username/multiple-disease-prediction.git
+
 cd multiple-disease-prediction
 
 ### 2. Create virtual environment (optional but recommended)
 python -m venv venv
+
 venv\Scripts\activate   # Windows
 ### 3. Install dependencies
 pip install -r requirements.txt
@@ -136,13 +139,20 @@ After entering the required values, the corresponding trained machine learning m
 
 ## 📸 Output
 The system displays:
+
 Prediction result (Positive / Negative)
+
 Risk status
+
 Simple UI dashboard
 
 ## 📈 Future Improvements
 Add more diseases (Cancer, Liver, Kidney)
+
 Improve model accuracy
+
 Deploy using AWS / Render / Streamlit Cloud
+
 Add authentication system
+
 Add medical report download feature
